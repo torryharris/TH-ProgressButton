@@ -3,9 +3,13 @@ TH-ProgressButton
 Circular progress View button inspired by [FFCircularProgressView](https://github.com/elbryan/FFCircularProgressView)
 
 ![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/screenshots/progressshot1.png "Start state")
+
 ![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/screenshots/progressshot2.png "Running state")
+
 ![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/screenshots/progressshot3.png "Progress state")
+
 ![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/screenshots/progressshot4.png "End state")
+
 ![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/ProgressButton.gif "Progress Button")
 
 ##How to use:
@@ -97,7 +101,7 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
         myPaint.setColor(Color.rgb(0, 161, 234));    
     
 
-6. ##Demo
+##Demo
     Please download and run the [project](https://github.com/Vyshakh-K/TH-ProgressButton) to view demo.
 
 ##License
