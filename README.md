@@ -10,7 +10,7 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
 
 ![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/screenshots/progressshot4.png "End state")
 
-![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/ProgressButton.gif "Progress Button")
+![alt text](https://raw.github.com/Vyshakh-K/TH-ProgressButton/master/ProgressButton.gif "Progress Button")
 
 ##How to use:
 1. Deployment target should be Api level 13 or above.
