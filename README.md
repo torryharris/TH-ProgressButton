@@ -6,7 +6,7 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
 
 ![alt text](https://raw.github.com/Vyshakh-K/TH-ProgressButton/master/screenshots/progressshot2.png "Running state")
 
-![alt text](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/screenshots/progressshot3.png "Progress state")
+![alt text](https://raw.github.com/Vyshakh-K/TH-ProgressButton/master/screenshots/progressshot3.png "Progress state")
 
 ![alt text](https://raw.github.com/Vyshakh-K/TH-ProgressButton/master/screenshots/progressshot4.png "End state")
 
