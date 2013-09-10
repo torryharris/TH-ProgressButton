@@ -12,32 +12,29 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	static int pix = 0;
-	static Canvas canvas3;
-	static DownLoadSigTask d;
-	static MasterLayout fl1;
-	static MasterLayout fl;
+
+	static MasterLayout masterLayout;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		d = new DownLoadSigTask();
 
-		fl1 = (MasterLayout) findViewById(R.id.MasterLayout01);
+		masterLayout = (MasterLayout) findViewById(R.id.MasterLayout01);
 
 		//Onclick listener of the progress button
-		fl1.setOnClickListener(new OnClickListener() {
+		masterLayout.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				
 				
-				fl1.animation(); //Need to call this method for animation and progression
+				masterLayout.animation(); //Need to call this method for animation and progression
 				
-				if (fl1.flg_frmwrk_mode == 1) { 
+				if (masterLayout.flg_frmwrk_mode == 1) { 
 					
 					//Start state. Call any method that you want to execute
 					
@@ -53,12 +50,12 @@ public class MainActivity extends Activity {
 					});
 					new DownLoadSigTask().execute();
 				}
-				if (fl1.flg_frmwrk_mode == 2) {
+				if (masterLayout.flg_frmwrk_mode == 2) {
 					
 					//Running state. Call any method that you want to execute
 					
 					new DownLoadSigTask().cancel(true);
-					fl1.reset();
+					masterLayout.reset();
 					runOnUiThread(new Runnable() {
 
 						@Override
@@ -70,7 +67,7 @@ public class MainActivity extends Activity {
 						}
 					});
 				}
-				if (fl1.flg_frmwrk_mode == 3) {
+				if (masterLayout.flg_frmwrk_mode == 3) {
 					
 					//End state. Call any method that you want to execute.
 					
@@ -126,7 +123,7 @@ public class MainActivity extends Activity {
 			
 			//publishing progress to progress arc
 			
-			fl1.cusview.setupprogress(progress[0]);
+			masterLayout.cusview.setupprogress(progress[0]);
 		}
 
 	
