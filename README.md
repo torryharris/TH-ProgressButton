@@ -70,9 +70,30 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
     }
             
 
-4. ##Customization
+
+
+
+5. ##Updating the progress
+ 
     
-    - Basic customization can be done in `com.thbs.progressbutton.MasterLayout.java`.
+	Send the progress to MasterLayout's "cusview.setupprogress()" method from AsyncTask's "onProgressUpdate()".
+   
+         @Override
+	 	protected void onProgressUpdate(Integer... progress) 
+	 	{
+
+			//publishing progress to progress arc
+			masterLayout.cusview.setupprogress(progress[0]);
+ 
+	 	}
+
+
+
+
+
+6. ##Customization
+    
+    - Basic customization can be done in "com.thbs.progressbutton.MasterLayout.java".
         
         Circle related customization:
         
@@ -90,11 +111,11 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
            
     
     
-    Create new icons using path or use the existing icons in method `iconCreate()`
+    Create new icons using path or use the existing icons in method "iconCreate()"
         
         
 
-    - Progress arc color can be changed from `com.thbs.progressbutton.CusImage.java` using:
+    - Progress arc color can be changed from "com.thbs.progressbutton.CusImage.java" using:
         
         
         
