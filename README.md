@@ -20,37 +20,37 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
   
 3. ##Layout:
                        
-        <com.example.tempo.MasterLayout
+        <com.thbs.progressbutton.MasterLayout
             android:id="@+id/MasterLayout01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:clickable="true" >
-        </com.example.tempo.MasterLayout>
+        </com.thbs.progressbutton.MasterLayout>
  
 
 
 
 4. ##Activity
                        
-        static MasterLayout fl;   //Should be static
+        static MasterLayout masterLayout;   //Should be static
         
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             
-            fl1 = (MasterLayout) findViewById(R.id.MasterLayout01);
+            masterLayout = (MasterLayout) findViewById(R.id.MasterLayout01);
             
             //Onclick listener of the progress button
-    	    fl1.setOnClickListener(new OnClickListener() {
+    	    masterLayout.setOnClickListener(new OnClickListener() {
     		
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 
-				fl1.animation();   //Need to call this method for animation and progression
+				masterLayout.animation();   //Need to call this method for animation and progression
                 
-				switch (fl1.flg_frmwrk_mode) {
+				switch (masterLayout.flg_frmwrk_mode) {
                 
 				case 1:
 						//Start state. Call your method
@@ -102,7 +102,7 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
     
 
 ##Demo
-    Please download and run the [project](https://github.com/Vyshakh-K/TH-ProgressButton) to view demo.
+Please download and run the [project](https://github.com/torryharris/TH-ProgressButton) to view demo.
 
 ##License
-ProgressButton is licensed under the terms of the MIT License. Please see the [License](https://github.com/Vyshakh-K/TH-ProgressButton/blob/master/LICENSE) file for full details.
+ProgressButton is licensed under the terms of the MIT License. Please see the [License](https://github.com/torryharris/TH-ProgressButton/blob/master/LICENSE) file for full details.
