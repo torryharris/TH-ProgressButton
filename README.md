@@ -124,7 +124,7 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
  
 ##Are you using this framework?
 
-- If you are using this widget please feel free to add your app to the [wiki](https://github.com/torryharris/TH-ProgressButton/wiki/Apps).
+- If you are using this framework please feel free to add your app to the [wiki](https://github.com/torryharris/TH-ProgressButton/wiki/Apps).
     
 
 ##Demo
