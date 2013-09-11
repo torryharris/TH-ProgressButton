@@ -120,6 +120,11 @@ Circular progress View button inspired by [FFCircularProgressView](https://githu
         
         
         myPaint.setColor(Color.rgb(0, 161, 234));    
+ 
+ 
+##Are you using this framework?
+
+- If you are using this widget please feel free to add your app to the [wiki](https://github.com/torryharris/TH-ProgressButton/wiki/Apps).
     
 
 ##Demo
