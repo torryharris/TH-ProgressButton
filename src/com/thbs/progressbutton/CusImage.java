@@ -80,7 +80,7 @@ public class CusImage extends View {
 		
 		sweepAngle = 0;
 		startAngle = -90;
-		flag = 1;
+		flag = 0;
 	}
 
 	@Override
