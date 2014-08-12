@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 				if (masterLayout.flg_frmwrk_mode == 3) {
 					
 					//End state. Call any method that you want to execute.
-					
+					masterLayout.reset();
 					runOnUiThread(new Runnable() {
 
 						@Override

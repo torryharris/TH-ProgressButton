@@ -420,6 +420,8 @@ public class MasterLayout extends FrameLayout implements OnClickListener {
 
 		cusview.reset();
 		cusview.setVisibility(View.GONE);
+		fillcircle.setVisibility(View.GONE);
+        buttonimage.setVisibility(View.VISIBLE);
 		buttonimage.setImageBitmap(first_icon_bmp);
 		flg_frmwrk_mode = 1;
 
